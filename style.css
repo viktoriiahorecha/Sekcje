@@ -1,0 +1,46 @@
+* {
+    font-family: Garamond;
+    text-align: center;
+}
+
+body {
+    margin: 0;
+}
+
+main {
+    display: flex;
+}
+
+#lewy {
+    background-color: #65bd3c;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+}
+
+#lewy1 {
+    font-size: 70%;
+}
+
+#prawy {
+    display: flex;
+    flex-direction: column;
+    width: 208%;
+}
+
+#prawy1{
+    background-color:rgb(240, 237, 66);
+    height: 200px;
+}
+#prawy2 {
+    background-color:rgb(40, 42, 184);
+    height: 420px;
+}
+
+input[type="radio"] {
+    margin: 7px;
+}
+footer{
+    background-color: #ece258 ;
+    padding: 90px;
+}
